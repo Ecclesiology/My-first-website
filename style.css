@@ -1,0 +1,94 @@
+body {
+    font-size: 14px;
+    font-variant:small-caps;
+    color: #3da;
+}
+/*  background: radial-gradient(rgba(227,225,255,1) 0%, rgba(29,118,149,1) 44%, rgba(102,47,241,1) 100%); */
+h1 {
+    color: #3da;
+    font-size: 2em;
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 5px;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 0.5em;
+    border-bottom-style: ridge;
+    border-bottom-width: 0.5em;
+    border-bottom-color: #cee
+}
+
+h2 {
+    font-size: 1.5em;
+    background-color: #cee;
+    margin: 0;
+    padding: 20px;
+    padding-left: 14px;
+    border-style: outset;
+    border-width: 5px;
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-color: #ccc;
+}
+
+h3 {
+    color: #999;
+    font-size: 1.25em;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    color: #3da;
+    font-style: italic;
+}
+
+img {
+    border-style: dashed;
+    border-width: 2px;
+    border-color: #ccc;
+}
+
+p {
+    letter-spacing: 0.5em;
+    word-spacing: 1.25em;
+    line-height: 1.5;
+    text-align: center;
+}
+
+table {
+    background-color: #cee;
+    padding: 0;
+    border-style: outset;
+    border-width: 5px;
+    border-color: #ccc;
+}
+
+td {
+    padding: 0;
+    border-style: inset;
+    border-width: 2.5px;
+}
+
+
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    text-decoration: none;
+    color: blue;
+    background-color: #cee;
+}
+
+input:focus, textarea:focus {
+    background: #eee;
+}
+
